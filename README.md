@@ -28,7 +28,7 @@
 
 构造二维平面元胞空间，每个元胞晶格取值为两种离散状态 __{有车, 无车}__，形状为正四边形。如下图所示，此图模拟 __L=6__，__B=8__，且 __B__ 靠近收费广场中央区域的情形，其中黑色区域为边界。
 
-![](https://github.com/tankeryang/graduate_works/tree/master/result/plaza.jpg)
+![L6-B8-center](https://github.com/tankeryang/graduate_works/tree/master/result/plaza.jpg)
 
 ## 车辆行进规则
 
@@ -42,7 +42,7 @@
 
 * 统计每一时刻整个模拟收费路段状态为 __{有车}__的元胞数。此值代表了每一时刻 __i__ 的车辆延误时间。而每一时刻 __i__ 的总车辆延误时间为：
 
-<center>![1](https://github.com/tankeryang/graduate_works/tree/master/readme_pics/1.jpg)</center>
+![1](https://github.com/tankeryang/graduate_works/tree/master/readme_pics/1.jpg)
 
 > 其中 __plaza__ 为整个模拟收费路段，__plaza(x,y)__ 为第 __x__ 行 __y__ 列的元胞，__l__表示一个指示函数。
 
