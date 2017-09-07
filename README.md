@@ -48,7 +48,7 @@
 
 * 统计收费路段出口车流量，即每一时刻路段末尾状态为 __{有车}__ 的元胞数总和，为：
 
-<center>![2](https://github.com/tankeryang/graduate_works/tree/master/readme_pics/2.jpg)</center>
+<center>![2](https://github.com/tankeryang/graduate_works/blob/master/readme_pics/2.jpg)</center>
 
 > 其中 __plazalength__ 为整个模拟收费路段长度。__output__ 的意义为被抵消掉的总延误时间。
 
