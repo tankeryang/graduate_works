@@ -28,7 +28,7 @@
 
 构造二维平面元胞空间，每个元胞晶格取值为两种离散状态 __{有车, 无车}__，形状为正四边形。如下图所示，此图模拟 __L=6__，__B=8__，且 __B__ 靠近收费广场中央区域的情形，其中黑色区域为边界。
 
-![L6-B8-center](https://github.com/tankeryang/graduate_works/tree/master/result/plaza.jpg)
+![](https://github.com/tankeryang/graduate_works/tree/master/result/plaza.jpg)
 
 ## 车辆行进规则
 
