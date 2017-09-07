@@ -28,7 +28,7 @@
 
 构造二维平面元胞空间，每个元胞晶格取值为两种离散状态 __{有车, 无车}__，形状为正四边形。如下图所示，此图模拟 __L=6__，__B=8__，且 __B__ 靠近收费广场中央区域的情形，其中黑色区域为边界。
 
-![L6-B8-center](https://github.com/tankeryang/graduate_works/tree/master/result/plaza.jpg)
+![L6-B8-center](https://github.com/tankeryang/graduate_works/blob/master/result/plaza.jpg)
 
 ## 车辆行进规则
 
@@ -42,30 +42,30 @@
 
 * 统计每一时刻整个模拟收费路段状态为 __{有车}__的元胞数。此值代表了每一时刻 __i__ 的车辆延误时间。而每一时刻 __i__ 的总车辆延误时间为：
 
-![1](https://github.com/tankeryang/graduate_works/tree/master/readme_pics/1.jpg)
+![1](https://github.com/tankeryang/graduate_works/blob/master/readme_pics/1.jpg)
 
 > 其中 __plaza__ 为整个模拟收费路段，__plaza(x,y)__ 为第 __x__ 行 __y__ 列的元胞，__l__表示一个指示函数。
 
 * 统计收费路段出口车流量，即每一时刻路段末尾状态为 __{有车}__ 的元胞数总和，为：
 
-<center>![2](https://github.com/tankeryang/graduate_works/blob/master/readme_pics/2.jpg)</center>
+![2](https://github.com/tankeryang/graduate_works/blob/master/readme_pics/2.jpg)
 
 > 其中 __plazalength__ 为整个模拟收费路段长度。__output__ 的意义为被抵消掉的总延误时间。
 
 * 定义总成本为 __C_total__，有：
 
-<center>![3](https://github.com/tankeryang/graduate_works/tree/master/readme_pics/3.jpg)</center>
+![3](https://github.com/tankeryang/graduate_works/blob/master/readme_pics/3.jpg)
 
 >其中 __W__ 为整个模拟过程的总延误时间，__W/output__ 为单位化总延误时间，__𝛼__
 >为每小时人均时间价值，__𝛾__ 为每个收费窗口每小时的成本(收费工作人员的平均时薪)
 >，根据实际参考，设置 __𝛾=￥12.5/h__，__𝛼__ 的计算公式参考为：
-><center>![4](https://github.com/tankeryang/graduate_works/tree/master/readme_pics/.jpg)</center>
+>![4](https://github.com/tankeryang/graduate_works/blob/master/readme_pics/.jpg)
 > >其中V为当地人均薪资，t为税率，C为当地人均消费水平。根据实际参考，设置 __𝛼=￥2.68/h__。
 
 ## 数据处理
 
-模拟![5](https://github.com/tankeryang/graduate_works/tree/master/readme_pics/5.jpg)
-的$11$种情况，记录每一种情况下的 __C_total__，每种情况模拟 __20__ 次，取其中 __C_total__ 平均值最小的对应的 __B__ 值作为最优结果。
+模拟![5](https://github.com/tankeryang/graduate_works/blob/master/readme_pics/5.jpg)
+的 __11__ 种情况，记录每一种情况下的 __C_total__，每种情况模拟 __20__ 次，取其中 __C_total__ 平均值最小的对应的 __B__ 值作为最优结果。
 
 # 结论
 
