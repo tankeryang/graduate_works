@@ -79,4 +79,4 @@ __B__ 设置在收费广场中央，个数满足方程 __B = 1.74545 * L__ 时�
 * ```jupyter_notebook_file文件夹```：数据可视化和回归分析的源文件，格式为```.ipynb```
 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=x&space;=&space;(x_1,&space;x_2,&space;...,&space;x_n)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x&space;=&space;(x_1,&space;x_2,&space;...,&space;x_n)" title="x = (x_1, x_2, ..., x_n)" /></a>
+<img src="https://latex.codecogs.com/gif.latex?x&space;=&space;(x_1,&space;x_2,&space;...,&space;x_n)" title="x = (x_1, x_2, ..., x_n)" />
