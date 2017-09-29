@@ -78,4 +78,4 @@ __B__ 设置在收费广场中央，个数满足方程 __B = 1.74545 * L__ 时�
 * ```result文件夹```：包括```data```数据可视化后的结果，回归分析的结果（截图）和模拟过程（截图）。格式为```.png```，```.jpg```；还有```jupyter_notebook_file```文件夹下的源文件生成的```html```文件，用浏览器打开
 * ```jupyter_notebook_file文件夹```：数据可视化和回归分析的源文件，格式为```.ipynb```
 
-![](http://latex.codecogs.com/gif.latex?J=\\frac{1}{m}\\sum_{i=1}^{m}\\mathcal{L}(a^{(i)},y^{(i)})\\tag{6})
+![](http://latex.codecogs.com/gif.latex?J=\\frac{1}{m}\\sum_{i=1}^{m}\\pounds(a^{(i)}, y^{(i)}))
